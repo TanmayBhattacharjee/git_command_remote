@@ -1,0 +1,46 @@
+Scenario 1:
+
+Committing Files:
+
+1. git init
+
+2. git status
+
+3. git add hello_world.js
+
+4. git status
+
+5. git commit -m <"commit message">
+
+6. echo '*.tmp' > .gitignore
+
+7. git add .gitignore
+
+8. git commit -m ".gitignore file"
+
+Scenario 2 :
+------------
+
+Committing Changes:
+====================
+
+1. git status
+
+2. git diff
+
+3.  git add committed.js
+
+4. git diff --staged
+
+5. git log
+
+6. git show
+
+Scenario 3:
+
+Working Remotely:
+=====================
+
+1. git remote add origin https://github.com/TanmayBhattacharjee/git_command_remote
+
+2. 
